@@ -28,7 +28,7 @@ Table of Contents
 ##Installation and Running
 
     Clone the repository:
-    git clone https://github.com/yourusername/power-plants-visualization-backend.git
+    git clone https://github.com/athul911/AIQ-typeScript.git
     cd AIQ-typescript
 
     Docker:
