@@ -7,13 +7,8 @@ Table of Contents
 
     Features
     Prerequisites
-    Installation
-    Running the Project
+    Installation and Running
     API Documentation
-    Project Structure
-    Dockerization
-    Contributing
-    License
 
 ##Features
 
@@ -30,7 +25,7 @@ Table of Contents
     Docker (optional, for containerization)
     MongoDB ( >=7)
 
-##Installation
+##Installation and Running
 
     Clone the repository:
     git clone https://github.com/yourusername/power-plants-visualization-backend.git
@@ -42,13 +37,14 @@ Table of Contents
     Non Docker setup:
 
     DB instance:
-     sudo mongod 
-     (run mongodb server on port 27017)
+         sudo mongod 
+        (run mongodb server on port 27017)
     
     App:
-      npm build
-      npm public/src/index.js
-      (check for log which says 'MongoDB connected')
+        npm install
+        npm build
+        npm public/src/index.js
+        (check for log which says 'MongoDB connected')
 
     
 
