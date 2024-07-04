@@ -16,7 +16,7 @@ const PlantSchema: Schema = new Schema({
     fileID : { type: String, required: true }
 });
 
-PlantSchema.index({ fileID: 1 });
+PlantSchema.index({ fileID: 1, plantState: 1 });
 
 
 export default mongoose.model<IPlant>('Plant', PlantSchema);
