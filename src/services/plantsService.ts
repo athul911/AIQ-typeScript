@@ -58,6 +58,9 @@ export const savePlantsData = async (filePath: string,unlink:Boolean = true) => 
             if (totalGeneration && totalGeneration > 0 && generation !== null ) {
                 percentageInState = parseFloat(((generation as number / totalGeneration) * 100).toFixed(2));
             }
+            else if (totalGeneration === 0){
+                percentageInState = 0
+            }
             plantDocuments.push({
                 fileID: fileID,
                 plantName: plant['Plant name'],
